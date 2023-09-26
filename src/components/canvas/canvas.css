@@ -1,0 +1,53 @@
+.draw{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.options{
+/*	padding: 1%;*/
+	padding: 1% 5%;
+/*	position: absolute;*/
+	background-color: grey;
+	top: 0;
+	left: 10%;
+	gap: 1rem;
+	display: flex;
+	align-items: center;
+/*	flex-direction: column;*/
+/*	width: 20%;
+	border:1px solid;
+/*	justify-content: space-between;*/
+}
+
+#canvas{
+	cursor: crosshair;
+}
+
+.reset_wrapper{
+	display: flex;
+	justify-content: space-around;
+	gap: 1rem;
+}
+
+
+
+.pen{
+	display: flex;
+	justify-content: space-around;
+}
+
+.save{
+	display: flex;
+/*	align-items: center;*/
+	gap: 0.7rem;
+}
+
+.save button{
+	border-radius: 5px;
+	padding: 0.6rem;
+	border: none;
+	outline: none;
+	background-color: #EC53B0;
+}

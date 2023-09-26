@@ -1,0 +1,50 @@
+.sidebar_wrapper{
+	width: 20%;
+	height: 100vh;
+	position: fixed;
+	border: none;
+
+}
+
+ul{	
+	width: 100%;
+	padding-top: 4%;
+	font-size: 0.9rem;
+}
+
+.dark{
+	background-color: #202124;
+}
+
+.selected{
+	background-color: #FEEFC3;
+}
+
+.dark .selected{
+	background-color: #41331C;
+}
+
+li{	display: flex;
+	align-items: center;
+	cursor:pointer;
+	list-style: none;
+/*	text-align: center;*/
+/*  font-weight: bold;*/
+	padding: 4% 5%;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+
+}
+
+.dark li:hover{
+	background-color: #28292C;
+}
+
+li:hover{
+	background-color: #F1F3F4;
+}
+
+.icons{
+	margin-left: 1rem;
+	margin-right: 1.5rem;
+}

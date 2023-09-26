@@ -1,0 +1,98 @@
+.note{
+	position: relative;
+	width:30%;
+	padding: 0.8rem;
+	align-self: flex-start; 
+	float: left;
+/*  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;*/
+	border:1px solid lightgrey;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    margin: 0.7rem;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.dark .note{
+	border: 1px solid grey;
+}
+
+.dark .note:hover{
+	border: 1px solid transparent;
+}
+
+.view{
+	width: 70%;
+	margin: 1% 15%;
+}
+
+.note h4,.content{
+	word-wrap: break-word;
+	padding-bottom:15px;
+}
+
+.emptynote{
+
+/*	margin-top: 1rem;*/
+	font-size: 1.5rem;
+	color: grey;
+}
+
+
+.note_btn{
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+.note_btn button:hover{
+	background-color: #E9E9EA;
+	border-radius: 50%;
+}
+
+.note button{
+	cursor: pointer;
+	padding:6px;
+	margin-left: 3px;
+	color:grey;
+	font-weight: bold;
+	border:none;
+	background: none;
+}
+
+.bgcolor{
+	position: absolute;
+	bottom: 0;
+	height: 20px;
+}
+
+
+.copied{
+	position: fixed;
+	bottom: -10%;
+	left: 45%;
+	z-index: 20;
+	border-left: 5px solid #00ff00;
+	padding: 10px;
+	border-radius: 5px;
+	transition: all .3s ease;
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.copied span{
+	display: flex;
+	align-items: center;
+}
+
+.dark .copied{
+	color: white;
+	background-color: #202124;
+}
+
+
+
+
