@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Keeper/static/css/main.b770fc65.css",
+    "main.js": "/Keeper/static/js/main.59a4acbb.js",
+    "static/media/grocery_dark.svg": "/Keeper/static/media/grocery_dark.d9e48cda8e40b7dc14e1cde3f07a9f70.svg",
+    "static/media/places_dark.svg": "/Keeper/static/media/places_dark.85c3c4984586ddc1ffa3bd826902ead0.svg",
+    "static/media/video_dark.svg": "/Keeper/static/media/video_dark.4c8b15862b25b2e516240567222c9666.svg",
+    "static/media/celebration.svg": "/Keeper/static/media/celebration.4991ad936c0dbea62e8379b9b0962f23.svg",
+    "static/media/recipe.svg": "/Keeper/static/media/recipe.2b0eb3eb36107632bcf321cc12e25459.svg",
+    "static/media/food_dark.svg": "/Keeper/static/media/food_dark.d71cebf1f94a0fe20e7c3cadf08fe844.svg",
+    "static/media/travel.svg": "/Keeper/static/media/travel.fe38e78bb4af36ea0291f7fdaae596ac.svg",
+    "static/media/notes.svg": "/Keeper/static/media/notes.d31ba131816dd8788e271ed6696f18b9.svg",
+    "static/media/music.svg": "/Keeper/static/media/music.f9bfdb15124906d9ebd97fb04f43af0e.svg",
+    "index.html": "/Keeper/index.html",
+    "main.b770fc65.css.map": "/Keeper/static/css/main.b770fc65.css.map",
+    "main.59a4acbb.js.map": "/Keeper/static/js/main.59a4acbb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b770fc65.css",
+    "static/js/main.59a4acbb.js"
+  ]
+}
